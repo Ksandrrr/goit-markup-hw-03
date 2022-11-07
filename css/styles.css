@@ -1,5 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
 }
 li {
   list-style-type: none;
@@ -45,6 +47,7 @@ p {
 }
 header {
   border-bottom: 1px solid #ececec;
+  height: 80px;
 }
 .mein {
   display: flex;
@@ -64,7 +67,6 @@ nav > ul {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.17;
-  letter-spacing: 0.03em;
   font-family: 'Raleway', sans-serif;
 }
 .logo-first-word {
@@ -86,9 +88,7 @@ nav > ul {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
-
   color: var(--main-text-color);
-  font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.02em;
   font-weight: 500;
@@ -101,7 +101,6 @@ nav > ul {
   padding-bottom: 32px;
 
   color: var(--second-text-color);
-  font-size: 14px;
   line-height: 1.17;
   font-weight: 500;
   letter-spacing: 0.02em;
@@ -135,6 +134,8 @@ nav > ul {
   line-height: 1.36;
   font-weight: 900;
   text-transform: uppercase;
+  width: 696px;
+  margin: auto;
 }
 .tittle button {
   padding: 10px 32px 10px 32px;
@@ -167,17 +168,14 @@ nav > ul {
   margin-right: 0;
 }
 .studio-section-advantage h3 {
-  font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   font-weight: 700;
 }
 .studio-section-advantage p {
   margin-top: 10px;
 
-  font-size: 14px;
+
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--second-text-color);
 }
 .studio-section-our-activity {
@@ -186,9 +184,9 @@ nav > ul {
 }
 .our-activity-photo {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  gap: 30px;
   margin-top: 50px;
+
 }
 .our-activity-photo img {
   display: block;
@@ -198,7 +196,6 @@ nav > ul {
   font-size: 36px;
   line-height: 1.16;
   font-weight: 700;
-  letter-spacing: 0.03em;
 }
 
 .studio-section-our-team {
@@ -211,13 +208,11 @@ nav > ul {
   font-size: 36px;
   line-height: 1.16;
   font-weight: 700;
-  letter-spacing: 0.03em;
   text-align: center;
 }
 .studio-list-our-team {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  gap: 30px;
   text-align: center;
   margin-top: 50px;
 }
@@ -234,7 +229,6 @@ nav > ul {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.16;
-  letter-spacing: 0.03em;
   text-align: center;
 }
 .studio-list-our-team h3 {
@@ -243,7 +237,6 @@ nav > ul {
   font-size: 16px;
   line-height: 1.18;
   font-weight: 500;
-  letter-spacing: 0.03em;
 }
 .studio-list-our-team p {
   margin-top: 10px;
@@ -251,10 +244,21 @@ nav > ul {
 
   line-height: 1.18;
   font-weight: 400;
-  letter-spacing: 0.03em;
   color: var(--second-text-color);
 }
-
+.sect-portfolio h1 {
+  position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+  
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 .portfolio-button-filter {
   display: flex;
   justify-content: center;
@@ -271,7 +275,6 @@ nav > ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  letter-spacing: 0.03em;
   font-family: inherit;
   border-style: none;
   border-radius: 4px;
@@ -311,7 +314,9 @@ nav > ul {
   display: flex;
   flex-wrap: wrap;
   margin-top: 50px;
+
 }
+
 .list-portfolio img {
   display: block;
 }
@@ -319,7 +324,6 @@ nav > ul {
 .list-portfolio p {
 
   color: var(--second-text-color);
-  letter-spacing: 0.03em;
   line-height: 1.87;
 }
 .list-portfolio h2 {
@@ -344,7 +348,7 @@ footer {
 
 .footer-communication-links a {
   color: var(--footer-text-color);
-  font-size: 14px;
+
   line-height: 1.7;
   font-weight: 500;
   font-style: normal;
@@ -355,7 +359,7 @@ address p {
 
   color: var(--last-text-color);
   font-style: normal;
-  font-size: 14px;
+
   line-height: 1.7;
 }
 .footer-communication-links li {
