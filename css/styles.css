@@ -13,6 +13,7 @@ ul {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
+
 }
 h1,
 h2,
@@ -239,6 +240,7 @@ nav > ul {
   font-weight: 500;
 }
 .studio-list-our-team p {
+
   margin-top: 10px;
   margin-bottom: 30px;
 
@@ -348,9 +350,9 @@ footer {
 
 .footer-communication-links a {
   color: var(--footer-text-color);
-
+display: block;
   line-height: 1.7;
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -363,8 +365,8 @@ address p {
   line-height: 1.7;
 }
 .footer-communication-links li {
-  margin-bottom: 6px;
-  margin-top: 6px;
+  margin-bottom: 9px;
+  margin-top: 9px;
 }
 .footer-communication-links li:last-child {
   margin-top: 0;
